@@ -7,6 +7,7 @@ import { store } from "./store/store";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+    // Start App
     <Provider store={store}>
         <App />
     </Provider>
